@@ -3,10 +3,10 @@
 ## Build
 
 ```sh
-$ docker build -t nightmarejs .
+$ docker build -t electro-knight .
 ```
 
 ## Run
 ```sh
-$ docker run -ti --rm nightmarejs
+$ docker run -ti --rm electro-knight
 ```
