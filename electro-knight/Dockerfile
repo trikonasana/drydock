@@ -22,4 +22,4 @@ ADD test.js .
 
 # ENV DEBUG="nightmare:*,electron:*"
 
-CMD /usr/bin/xvfb-run --server-args="-screen 0 1024x768x24" /usr/local/bin/mocha -R spec .
+CMD /usr/bin/xvfb-run --server-args="-screen 0 1024x768x24" /usr/local/bin/mocha -R mocha-json-singleline > report .
